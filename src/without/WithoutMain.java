@@ -1,10 +1,16 @@
 package without;
 
+import with.Calculatr;
+
 import java.util.Scanner;
 
 public class WithoutMain {
     public static void main(String[] args) {
+        Calculatr calculatr = new Calculatr();
+        calculatr.calculate();
+
         Scanner sc = new Scanner(System.in);
+
 
         while (true) {
             System.out.println("찻번째 숫자를 입력하세요.(종료하려면 exit 입력)");
